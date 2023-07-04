@@ -11,6 +11,14 @@ import { ContentComponent } from './content/content.component';
 import { AboutComponent } from './about/about.component';
 import { EmailsComponent } from './emails/emails.component';
 
+import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+//import {RouterModule, Routes } from '@angular/router';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
+//const appRoute: Routes = []
 
 @NgModule({
   declarations: [
@@ -21,11 +29,19 @@ import { EmailsComponent } from './emails/emails.component';
     ContentComponent,
     AboutComponent,
     EmailsComponent
+     
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    //RouterModule.forRoot(appRoute)
+    MatButtonModule,
+    MatToolbarModule
   ],
+  //exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -13,7 +13,6 @@ h1{
     font-size: 15px;
     margin: 15px 0px;
      
-
 }
 
 .emails input{
@@ -25,6 +24,7 @@ h1{
 }
 #submit-input{
     background-color:rgba(51, 185, 255, 1);
-    margin: 15px 0px;
+    margin: 20px 0px;
     width: 50%;
+    
 }

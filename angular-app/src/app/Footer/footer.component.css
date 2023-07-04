@@ -1,10 +1,16 @@
  .footer{
     background-color: black;
-    padding: 0px 20px;
-    display: flex;
-    
+    padding: 10px 20px 10px ;
  }
 
+ .title{
+   display: flex;
+ }
+
+ .find-us-title{
+    position: absolute;
+    right:20px;
+ }
  .footer a {
     color: white;
     text-decoration: none;
@@ -15,23 +21,82 @@
 h1 {
     color: white;
     font-size: 15px;
+     
  }
 
  .find-us p{
     color:white;
-    text-align: right;
+    /*text-align: right;*/
+    float: right;
  }
  .find-us h1{
     text-align: right;
  }
 
- .line {
-    height: 1px;
-    background-color: white;
-    /* Additional styling properties */
-    width: 50%; /* Adjust the width as needed */
-    margin: 10px auto; /* Adjust margin for positioning */
+ .line1 {
+    height: 2px;
+    background-color:   rgba(236, 145, 61, 1);
+    width: 100%;  
+    margin-bottom: 10px;
   }
-  
 
+.line2{
+   height: 2px;
+   background-color:   rgba(236, 145, 61, 1);
+   width: 100%; 
+   float: right;
+  }
+ 
 
+ .quick-links-and-address{
+    display: flex;
+
+ } 
+
+.address{
+   color: white;
+   position: absolute;
+   right: 20px;
+   text-align: right;
+
+}
+.numbers{
+    padding-top: 90px;
+}
+.address p {
+   margin: 4px 0px;
+}
+
+.line3{
+   height: 2px;
+   background-color:   rgba(236, 145, 61, 1);
+   width: 100%; 
+   
+}
+.socials{
+   color:   rgba(236, 145, 61, 1);
+   background-color:  black;
+   padding: 0px 20px;
+   text-align: center;
+}
+
+.socials p{
+   margin:  20px 0px 20px;
+   margin-bottom: 20px;
+}
+.media{
+   color: black;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 9vh;
+    
+   border-radius: 20px;
+   margin: 0px 90px;
+   padding: 0px;
+}
+.mat-icon{
+   margin: 10px;
+   transform: scale(1.5);
+}
